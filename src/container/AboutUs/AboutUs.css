@@ -74,6 +74,10 @@
         margin: 4rem 0rem;
     }
 
+    .app__aboutus-content_knife img {
+        height: 510px;
+    }
+
     .app__aboutus-content_history,
     .app__aboutus-content_about {
         justify-content: center;
