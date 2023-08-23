@@ -1,5 +1,5 @@
 import React from 'react';
-import { SubHeading, MenuItem } from '../../components'
+import { SubHeading } from '../../components'
 
 import data from '../../constants/data'
 import images from '../../constants/images'
