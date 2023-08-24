@@ -28,7 +28,7 @@ const Gallery = () => {
 
       <div className='app__gallery-content'>
         <SubHeading title="Instagram" />
-        <h1 className='headtext::cormorant'>Photo Gallery</h1>
+        <h1 className='headtext__cormorant'>Photo Gallery</h1>
         <p className='p__opensans' style={{ color: '#AAA', marginTop: '2rem' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quis?</p>
         <button type='button' className='custom__button'>View More</button>
       </div>
@@ -43,7 +43,7 @@ const Gallery = () => {
           ))}
         </div>
 
-        <div className='app__gallery-images_arrow'>
+        <div className='app__gallery-images_arrows'>
           <BsArrowLeftShort className='gallery__arrow-icon' onClick={() => scroll('left')} />
           <BsArrowRightShort className='gallery__arrow-icon' onClick={() => scroll('right')} />
         </div>
